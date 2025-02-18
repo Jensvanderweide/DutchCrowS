@@ -1,23 +1,19 @@
+
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers import BitsAndBytesConfig
 import torch
 
-model_name = "EleutherAI/gpt-neo-125M"
+model_name = "openai-community/gpt2-medium"
 
-# Create quantization configuration
-quantization_config = BitsAndBytesConfig(
-    load_in_8bit=True,
-    bnb_8bit_compute_dtype=torch.float16
-)
-
+# Load tokenizer and model without quantization
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(
-    model_name,
-    quantization_config=quantization_config
-)
+model = AutoModelForCausalLM.from_pretrained(model_name)
 
+# Prepare input
 input_text = "What is the capital of France?"
 inputs = tokenizer(input_text, return_tensors="pt")
 
+# Generate output
 output = model.generate(**inputs)
+
+# Decode and print result
 print(tokenizer.decode(output[0], skip_special_tokens=True))
