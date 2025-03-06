@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Onderzoek</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1 { color: #007bff; }
+        .faq-item { margin-bottom: 20px; }
+        .question { font-weight: bold; cursor: pointer; color: #007bff; }
+        .answer { display: none; margin-top: 5px; }
+    </style>
+    <script>
+        function toggleAnswer(id) {
+            var answer = document.getElementById(id);
+            answer.style.display = (answer.style.display === "block") ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+    <h1>Veelgestelde vragen (FAQ)</h1>
+    
+    <div class="faq-item">
+        <p class="question" onclick="toggleAnswer('answer1')">Wat is het doel van dit onderzoek?</p>
+        <p class="answer" id="answer1">Het doel is om stereotypen in de Nederlandse taal te identificeren en analyseren met behulp van AI.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="question" onclick="toggleAnswer('answer2')">Hoe worden de gegevens gebruikt?</p>
+        <p class="answer" id="answer2">De verzamelde gegevens worden geanalyseerd en gebruikt voor wetenschappelijk onderzoek over AI en taal.</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="question" onclick="toggleAnswer('answer3')">Kan ik mijn gegevens laten verwijderen?</p>
+        <p class="answer" id="answer3">Ja, neem contact op met de onderzoekers als u uw gegevens wilt laten verwijderen.</p>
+    </div>
+
+</body>
+</html>
