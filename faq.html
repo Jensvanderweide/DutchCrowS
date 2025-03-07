@@ -5,36 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ - Onderzoek</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-        h1 { color: #007bff; }
-        .faq-item { margin-bottom: 20px; }
-        .question { font-weight: bold; cursor: pointer; color: #007bff; }
-        .answer { display: none; margin-top: 5px; }
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; max-width: 800px; }
+        h1, h2 { color: #007bff; }
+        h2 { margin-top: 20px; }
     </style>
-    <script>
-        function toggleAnswer(id) {
-            var answer = document.getElementById(id);
-            answer.style.display = (answer.style.display === "block") ? "none" : "block";
-        }
-    </script>
 </head>
 <body>
     <h1>Veelgestelde vragen (FAQ)</h1>
     
-    <div class="faq-item">
-        <p class="question" onclick="toggleAnswer('answer1')">Wat is het doel van dit onderzoek?</p>
-        <p class="answer" id="answer1">Het doel is om stereotypen in de Nederlandse taal te identificeren en analyseren met behulp van AI.</p>
-    </div>
-
-    <div class="faq-item">
-        <p class="question" onclick="toggleAnswer('answer2')">Hoe worden de gegevens gebruikt?</p>
-        <p class="answer" id="answer2">De verzamelde gegevens worden geanalyseerd en gebruikt voor wetenschappelijk onderzoek over AI en taal.</p>
-    </div>
-
-    <div class="faq-item">
-        <p class="question" onclick="toggleAnswer('answer3')">Kan ik mijn gegevens laten verwijderen?</p>
-        <p class="answer" id="answer3">Ja, neem contact op met de onderzoekers als u uw gegevens wilt laten verwijderen.</p>
-    </div>
-
+    <h2>Kan je meer uitleg geven over de labels?</h2>
+    <p>De ‘labels’ zijn gebaseerd op de ‘gronden van discriminatie’ die wettelijk verboden zijn, zoals gehanteerd door het College van de Rechten van de Mens. Stereotyperingen kunnen leiden tot discriminatie op deze gronden:</p>
+    <ul>
+        <li><strong>Ras / huidskleur</strong>: Stereotyperingen op basis van iemands etniciteit, huidskleur of kenmerken die daarop duiden, zoals een naam die veel voorkomt binnen een bepaalde etnische groep.</li>
+        <li><strong>Geslacht / gender</strong>: Stereotyperingen op basis van iemands geslacht of genderidentiteit, zoals man, vrouw, transgender of non-binair.</li>
+        <li><strong>Godsdienst</strong>: Stereotyperingen op basis van iemands religie, zoals het christendom, de islam of het jodendom, maar ook atheïsme.</li>
+        <li><strong>Beperking (mentaal of fysiek)</strong>: Stereotyperingen op basis van een lichamelijke of mentale beperking.</li>
+        <li><strong>Sociaal-economische status / beroep</strong>: Stereotyperingen op basis van iemands beroep, opleidingsniveau of inkomen.</li>
+        <li><strong>Seksuele gerichtheid</strong>: Stereotyperingen op basis van iemands seksuele oriëntatie, zoals homoseksueel, lesbisch, biseksueel, aseksueel of heteroseksueel.</li>
+        <li><strong>Leeftijd</strong>: Stereotyperingen op basis van iemands leeftijd, bijvoorbeeld omdat iemand jong of oud is.</li>
+        <li><strong>Nationaliteit / staatsburgerschap</strong>: Stereotyperingen op basis van iemands afkomst, zoals het land of werelddeel waar iemand vandaan komt.</li>
+        <li><strong>Uiterlijk / fysiek voorkomen</strong>: Stereotyperingen op basis van uiterlijke kenmerken, zoals lichaamsgewicht, lengte of kledingstijl.</li>
+    </ul>
+    
+    <h2>Wat als meerdere labels passend zijn?</h2>
+    <p>Kies in dat geval het label dat het meest relevant is voor de achtergestelde of bevoorrechte groep waarover je schrijft.</p>
+    
+    <h2>Kan ik meerdere zinnen schrijven?</h2>
+    <p>Ja, graag! Vul dan de enquête opnieuw in via Prolific. Variatie in de zinnen heeft de voorkeur.</p>
+    
+    <h2>Kan je wat meer vertellen over het onderzoek?</h2>
+    <p>Taalmodellen (ook wel <em>Large Language Models</em> genoemd), zoals ChatGPT, kunnen <em>biases</em> hebben. Dit betekent dat ze bijvoorbeeld bepaalde stereotypen over groepen mensen in hun antwoorden kunnen weerspiegelen. Om in kaart te brengen in hoeverre taalmodellen als ChatGPT stereotyperend zijn, hebben Amerikaanse onderzoekers een dataset samengesteld (‘CrowS-Pairs’) met zinnen waarin stereotyperingen naar voren komen. Hiermee kunnen we testen hoe een taalmodel reageert.</p>
+    <p>De stereotyperingen in deze dataset zijn echter vooral gericht op de Amerikaanse cultuur. Dit onderzoek wil die dataset uitbreiden met Nederlandse stereotyperingen. De zinnen die met deze enquête worden opgehaald, zullen worden opgenomen in een Nederlandse dataset en helpen inzichtelijk maken hoe taalmodellen Nederlandse stereotypen in stand houden.</p>
+    
+    <h2>Wie zit er achter dit onderzoek?</h2>
+    <p>Mijn naam is Jens, en ik doe dit onderzoek voor mijn scriptie voor de MSc Artificial Intelligence aan de Universiteit Utrecht. De resultaten van het onderzoek dragen ook bij aan een project van TNO over het evalueren van generatieve AI.</p>
 </body>
 </html>
+
