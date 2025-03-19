@@ -108,9 +108,6 @@ def compare_pair(pair, lm):
         'sent2_pseudolog': sent2_log_probs
     }
 
-import pandas as pd
-from tqdm import tqdm
-
 def evaluate(lm, data):
     model = lm["model"]
     tokenizer = lm["tokenizer"]
