@@ -1,5 +1,5 @@
 from openai import OpenAI
-from openai_eval_prompt import evaluate_gpt
+from openai.openai_eval_prompt import evaluate_gpt
 from eval import read_data
 
 api_key=''
