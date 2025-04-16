@@ -114,7 +114,7 @@ def evaluate_prompt(chat_model, data, sample_size=None, model_name=None):
 
 if __name__ == "__main__":
     print("Loading chat model....")
-    model_name = "deepseek-r1:7b"
+    model_name = "mistral:7b"
     temperature = 0.2
     chat_model = get_chat_model(model_name=model_name, temperature=temperature)
     print("Chat model loaded!")
@@ -123,7 +123,7 @@ if __name__ == "__main__":
     try:
         data = read_data(data_path)
         print("Data loaded!")
-        sample_size = 50
+        sample_size = 100
         evaluate_prompt(chat_model, data, sample_size=sample_size, model_name=model_name)
     except FileNotFoundError:
         print(f"Error: Could not find the data file '{data_path}'")
