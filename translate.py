@@ -21,10 +21,11 @@ def translate_and_track(text, pbar):
 def translate_to_dutch_cached(text):
     return translate_to_dutch
 
-def translate_data_to_dutch(data_path: str, output_path: str):
+def translate_data_to_dutch(data_path: str, output_path: str, n=None):
     """Translate the entire data to Dutch and save it to a new file."""
     data = pd.read_csv(data_path, delimiter="\t")
-    data = data.head(10)
+    if n:
+        data = data.head(n)
 
     # Initialize progress bar
     with tqdm(total=len(data) * 2, desc="Translating", unit="sentence") as pbar:
@@ -33,15 +34,12 @@ def translate_data_to_dutch(data_path: str, output_path: str):
         data['sent_less'] = data['sent_less'].apply(lambda x: translate_and_track(x, pbar))
 
     # Save the translated data to a new file
-    data.to_csv(output_path, index=False, delimiter="\t")
+    data.to_csv(output_path, sep='\t', index=False)
 
-
-
-
-# Example usage
+n = 1000
 data_path = "crows_pairs_neveol_revised.csv"
-output_path = "n100_nl_crows_pairs_neveol_revised.csv"
+output_path = f"translated_data/dutch_crows_pairs_neveol_revised_{n}.csv"
 
 
-translate_data_to_dutch(data_path, output_path)
+translate_data_to_dutch(data_path, output_path, n=n)
 print(f"Data has been translated and saved to {output_path}.")
