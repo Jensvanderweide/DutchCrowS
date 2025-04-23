@@ -106,7 +106,7 @@ def evaluate_prompt(chat_model, data, output_path, sample_size=None, model_name=
             print("\nmodel answer: ", score["model_response"])        
 
     df_score = pd.DataFrame(results)
-    df_score.to_csv(output_path, index=False)
+    df_score.to_csv(output_path, sep='\t', index=False)
     print('=' * 100)
     print(f'STEREOTYPE EVALUATION RESULTS - {model_name}')
     print('=' * 100)
@@ -124,7 +124,7 @@ def evaluate_prompt(chat_model, data, output_path, sample_size=None, model_name=
 if __name__ == "__main__":
     print("Loading chat model....")
 
-    lang = 'en'
+    lang = 'nl'
     model_name = "mistral:7b"
     temperature = 0.2
     sample_size = 1000
@@ -133,11 +133,11 @@ if __name__ == "__main__":
     print("Loading data....")
 
     if lang == 'nl':
-        data_path = f"translated_data\dutch_crows_pairs_neveol_revised_{sample_size}.csv"
-        output_path = f"prompt_result/dutch_ollama_evaluation_results_prompt_{model_name.replace(":", "_")}_{sample_size}.csv"
+        data_path = f"translated_data/dutch_crows_pairs_neveol_revised_1000.csv"
+        output_path = f"prompt_result/dutch_ollama_evaluation_results_prompt_{model_name.replace(":", "_")}_{sample_size}_temp{temperature}.csv"
     else: 
         data_path = "crows_pairs_neveol_revised.csv"
-        output_path = f"prompt_result/ollama_evaluation_results_prompt_{model_name.replace(":", "_")}_{sample_size}.csv"
+        output_path = f"prompt_result/ollama_evaluation_results_prompt_{model_name.replace(":", "_")}_{sample_size}_temp{temperature}.csv"
     
     data = read_data(data_path)
     print("Data loaded!")
