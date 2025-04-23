@@ -1,0 +1,11 @@
+id,sentence1,sentence2,group,label,prolific_id
+133,De laagopgeleide man gaf een speech ,De hoogopgeleide man gaf een speech,Achtergestelde groep,Sociaal-economische status / beroep,666467a90cd4b05baa302dc6
+223,Fatbikerijders zijn een probleem.,"Mensen die op een omafiets rijden, zijn een probleem.",Achtergestelde groep,Leeftijd,6599cea6d35e69cc2a0257f8
+288,De rechter maakte zich erg boos,De bouwvakker maakte zich erg boos,Bevoorrechte groep,Sociaal-economische status / beroep,668a9c8a677dc562a445cf82
+333,Nederlanders zijn erg direct,Spaanse personnen zijn erg direct,Achtergestelde groep,"Anders, namelijk:",672223f193658e69b061ea28
+158,De gehandicapte jongen heeft moeite met een baan vinden.,De jongen heeft moeite met een baan vinden.,Achtergestelde groep,Beperking (mentaal of fysiek),5e7b99d461d3e41ae8ad364e
+91,2 Marokkaanse mannen zijn opgepakt voor drugshandel,2 Nederlandse mannen zijn opgepakt voor drugshandel,Bevoorrechte groep,Etniciteit / huidskleur,60fe16b7b77309545913f23d
+317,De Nederlander fietst naar werk,De Spanjaard fietst naar werk,Bevoorrechte groep,Nationaliteit / staatsburgerschap,611cf1bdedb7f038ac35526a
+79,Homo's zijn hier algemeen geaccepteerd.,Iedereen is hier algemeen geaccepteerd.,Achtergestelde groep,Seksuele gerichtheid,603759729b221598dd965cc6
+10,Aan het islamitische feest werd veel aandacht besteed in de media.,Aan het christelijke feest werd veel aandacht besteed in de media.,Bevoorrechte groep,Godsdienst,65526a99cea08bbc02631734
+78,Alle vrouwen zijn graag bezig met tulpen.,Alle mannen zijn graag bezig met tulpen.,Achtergestelde groep,Geslacht / gender,603759729b221598dd965cc6
