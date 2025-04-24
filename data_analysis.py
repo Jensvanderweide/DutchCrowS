@@ -1,84 +1,93 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def analyze_results(df_score, lang):
-    # Calculate overall metrics
-    total = len(df_score)
-    stereo_score = df_score[df_score['stereo_antistereo'] == 'stereo']['score'].sum()
-    antistereo_score = df_score[df_score['stereo_antistereo'] == 'antistereo']['score'].sum()
-    neutral = df_score[df_score['preferred'] == 'neutral'].shape[0]
-    total_stereo = df_score[df_score['stereo_antistereo'] == 'stereo'].shape[0]
-    total_antistereo = df_score[df_score['stereo_antistereo'] == 'antistereo'].shape[0]
+def analyze_results(df, lang):
+    total = len(df)
 
-    print('=' * 100)
+    # Sum of scores by type
+    stereo = df.loc[df.stereo_antistereo == 'stereo', 'score'].sum()
+    antistereo = df.loc[df.stereo_antistereo == 'antistereo', 'score'].sum()
+    neutral_count = (df.preferred == 'neutral').sum()
+
+    # Counts by type
+    n_stereo = (df.stereo_antistereo == 'stereo').sum()
+    n_antistereo = (df.stereo_antistereo == 'antistereo').sum()
+
+    overall_metric = (stereo + antistereo) / total * 100 if total else 0
+    stereo_pct     = stereo / n_stereo * 100 if n_stereo else float('nan')
+    antistereo_pct = antistereo / n_antistereo * 100 if n_antistereo else float('nan')
+    neutral_pct    = neutral_count / total * 100 if total else 0
+
+    print('='*80)
     print('STEREOTYPE EVALUATION RESULTS')
-    print('=' * 100)
-    print('Total examples:', total)
-    print('Metric score:', round((stereo_score + antistereo_score) / total * 100, 2))
-    print('Stereotype score:', round(stereo_score / total_stereo * 100, 2) if total_stereo > 0 else "N/A")
-    print('Anti-stereotype score:', round(antistereo_score / total_antistereo * 100, 2) if total_antistereo > 0 else "N/A")
-    print("Num. neutral:", neutral, round(neutral / total * 100, 2))
-    print('total stereo: ', total_stereo)
-    print('total anti-stereo: ', total_antistereo)
-    print('=' * 100)
+    print('='*80)
+    print(f'Total examples:          {total}')
+    print(f'Overall metric score:    {overall_metric:.2f}%')
+    print(f'Stereotype score:        {stereo_pct:.2f}%  ({n_stereo} examples)')
+    print(f'Anti-stereotype score:   {antistereo_pct:.2f}%  ({n_antistereo} examples)')
+    print(f'Neutral examples:        {neutral_count} ({neutral_pct:.2f}%)')
+    print('='*80)
 
-    # Distribution analysis
-    group_distribution = df_score.groupby('bias_type').agg({
-        'score': 'sum',
-        'sent_more': 'count'
-    }).rename(columns={'sent_more': 'total'}).reset_index()
+    # Distribution per bias_type
+    dist = (
+        df
+        .groupby('bias_type')
+        .agg(
+            total_examples = ('score','count'),
+            sum_scores     = ('score','sum')
+        )
+        .assign(
+            pct_score = lambda d: 100 * d.sum_scores / d.total_examples
+        )
+        .reset_index()
+    )
 
-    group_distribution['percentage'] = group_distribution['score'] / group_distribution['total'] * 100
+    print('\nDistribution of scores per social group:')
+    print(dist)
 
-    print('Distribution of scores per social group:')
-    print(group_distribution)
-
-    # Plotting the distribution
-    plt.figure(figsize=(10, 6))
-    plt.bar(group_distribution['bias_type'], group_distribution['percentage'])
-    plt.xlabel('Social Group')
-    plt.ylabel('Metric Score')
-    plt.title(f'Distribution of Scores per Social Group. Language: {lang}')
+    # Plot
+    plt.figure(figsize=(10,6))
+    plt.bar(dist.bias_type, dist.pct_score)
+    plt.xlabel('Social Group (bias_type)')
+    plt.ylabel('Score Percentage')
+    plt.title(f'Distribution by Social Group — {lang}')
     plt.xticks(rotation=45)
-    plt.grid(True)
-    plt.savefig(f'analysis_results/{lang}_distribution_score_socialgroup.png')
+    plt.tight_layout()
+    os.makedirs('analysis_results', exist_ok=True)
+    plt.savefig(f'analysis_results/{lang}_distribution_socialgroup.png')
     plt.show()
 
-    return group_distribution
+    return dist
 
-def analyze_impact_of_dataset_size(df_score, lang):
-    increments = list(range(10, len(df_score) + 1, 10))
-    metric_scores = []
+def analyze_impact_of_dataset_size(df, lang):
+    sizes = list(range(10, len(df)+1, 10))
+    metrics = []
 
-    for size in increments:
-        subset = df_score.iloc[:size]
-        stereo_score = subset[subset['stereo_antistereo'] == 'stereo']['score'].sum()
-        antistereo_score = subset[subset['stereo_antistereo'] == 'antistereo']['score'].sum()
-        total = len(subset)
-        metric_score = (stereo_score + antistereo_score) / total * 100
-        metric_scores.append(metric_score)
+    for n in sizes:
+        subset = df.iloc[:n]
+        s = subset.loc[subset.stereo_antistereo == 'stereo','score'].sum()
+        a = subset.loc[subset.stereo_antistereo == 'antistereo','score'].sum()
+        metric = (s + a) / n * 100
+        metrics.append(metric)
 
-    plt.figure(figsize=(10, 6))
-    plt.plot(increments, metric_scores, marker='o')
+    plt.figure(figsize=(10,6))
+    plt.plot(sizes, metrics, marker='o')
     plt.xlabel('Number of Data Points')
-    plt.ylabel('Metric Score')
-    plt.title(f'Impact of Dataset Size on Metric Score. Language: {lang}')
+    plt.ylabel('Overall Metric Score (%)')
+    plt.title(f'Impact of Dataset Size on Metric — {lang}')
     plt.grid(True)
-    plt.savefig(f'analysis_results/impact_of_size_{lang}.png')
+    plt.tight_layout()
+    os.makedirs('analysis_results', exist_ok=True)
+    plt.savefig(f'analysis_results/impact_size_{lang}.png')
     plt.show()
 
-if __name__ == "__main__":
-    
+if __name__ == '__main__':
     lang = 'nl'
+    filename = f"dutch_ollama_evaluation_results_prompt_mistral_7b_1000_temp0.2.csv" if lang == 'nl' \
+               else "ollama_evaluation_results_prompt_mistral_7b_1000_temp0.2.csv"
+    path = os.path.join("prompt_result", filename)
 
-    if lang == 'nl':
-        path = "prompt_result\dutch_ollama_evaluation_results_prompt_mistral_7b_1000_temp0.2.csv"
-    else: 
-        path = "prompt_result\ollama_evaluation_results_prompt_mistral_7b_1000_temp0.2.csv"
-
-    df_score = pd.read_csv(path, sep='\t')
-
-    analyze_results(df_score, lang=lang)
-    analyze_impact_of_dataset_size(df_score, lang=lang)
-
-    
+    df = pd.read_csv(path, sep='\t')
+    analyze_results(df, lang)
+    analyze_impact_of_dataset_size(df, lang)
