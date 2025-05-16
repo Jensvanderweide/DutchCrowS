@@ -1,6 +1,6 @@
 import os
 from langchain_community.chat_models import ChatOllama
-from eval import read_data
+from DutchCrowS.likelihood_metric import read_data
 import pandas as pd
 from tqdm import tqdm
 import random

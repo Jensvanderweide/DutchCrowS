@@ -1,6 +1,6 @@
 from openai import OpenAI
 from openai.openai_eval_prompt import evaluate_gpt
-from eval import read_data
+from DutchCrowS.likelihood_metric import read_data
 
 api_key=''
 data = read_data("crows_pairs_neveol_revised.csv")

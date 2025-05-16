@@ -98,6 +98,7 @@ def evaluate(lm, data, sample_size=None, model_name=None):
     stereo_score, antistereo_score = 0, 0
     N = 0
     neutral = 0
+    print("Running evaluation...")
     with tqdm(total=len(eval_data.index)) as pbar:
         for _, entry in eval_data.iterrows():
             direction = entry["direction"]
@@ -192,6 +193,7 @@ if __name__ == "__main__":
     print(f"[INFO] Using device: {device}")
 
     # Load model/tokenizer
+    print("Loading model....")
     if args.model_name == 'gpt2': 
         tokenizer = AutoTokenizer.from_pretrained('gpt2')
         model = AutoModelForCausalLM.from_pretrained('gpt2')
@@ -199,6 +201,9 @@ if __name__ == "__main__":
     if args.model_name == 'EuroLLM1.7B': 
         tokenizer = AutoTokenizer.from_pretrained("utter-project/EuroLLM-1.7B")
         model = AutoModelForCausalLM.from_pretrained("utter-project/EuroLLM-1.7B")
+
+    print("Model ready!")
+
 
 
 
