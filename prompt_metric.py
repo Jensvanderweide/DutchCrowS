@@ -1,5 +1,5 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from eval import read_data
+from DutchCrowS.likelihood_metric import read_data
 import torch
 from tqdm import tqdm
 import pandas as pd
