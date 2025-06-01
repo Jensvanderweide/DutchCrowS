@@ -38,4 +38,4 @@ def read_data(input_file):
     return df 
 
 if __name__ == "__main__":
-    data = read_data("crows_pairs_neveol_revised.csv")
+    data = read_data("final.csv")

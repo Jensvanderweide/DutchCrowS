@@ -1,5 +1,5 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from DutchCrowS.likelihood_metric import read_data
+from  import read_data
 import torch
 from tqdm import tqdm
 import pandas as pd
@@ -13,7 +13,7 @@ def get_chat_model(
     ):
     chat_model = ChatOllama(
         temperature=temperature,
-        base_url="someurl" 
+        base_url="someurl", 
         model=model_name,
         )
 
@@ -236,7 +236,7 @@ if __name__ == "__main__":
 
     # ======== DATA ========
     print("Loading data....")
-    data_path = "crows_pairs_neveol_revised.csv"  # Consider making this a command-line argument
+    data_path = "data_processing_for_validation/final.csv"  # Consider making this a command-line argument
     try:
         data = read_data(data_path)
         print("Data loaded!")

@@ -84,7 +84,6 @@ def compare_pair(pair, lm):
         "preferred": preferred,
     }
 
-
 def evaluate(lm, data, sample_size=None, model_name=None):
     model = lm["model"]
     tokenizer = lm["tokenizer"]
@@ -94,7 +93,6 @@ def evaluate(lm, data, sample_size=None, model_name=None):
     else:
         eval_data = data
 
-    print(len(eval_data))
     results = []
     total_stereo, total_antistereo = 0, 0
     stereo_score, antistereo_score = 0, 0
@@ -145,7 +143,7 @@ def evaluate(lm, data, sample_size=None, model_name=None):
             )
     df_score = pd.DataFrame(results)
     df_score.to_csv(
-        f"experiment_results/likelihood_evaluation_results_{model_name}_n={sample_size}.csv",
+        f"experiment_results/likelihood_evaluation_results_{args.data_path}_{model_name}_n={sample_size}.csv",
         index=False,
     )
     print("=" * 100)
@@ -182,11 +180,11 @@ if __name__ == "__main__":
     parser.add_argument(
         "--data_path",
         type=str,
-        default="preprocessed_crows_pairs_neveol_revised.csv",
+        default="preprocessed_final.csv",
         help="Path to your (preprocessed) CrowS-Pairs csv file.",
     )
     parser.add_argument(
-        "--sample_size", type=int, default=100, help="Number of examples to evaluate"
+        "--sample_size", type=int, default=None, help="Number of examples to evaluate"
     )
     args = parser.parse_args()
 
