@@ -1,0 +1,415 @@
+dp_id,survey_nr,stereotype_present_r1,group_type_r1,label_r1,comment_r1,stereotype_present_r2,group_type_r2,label_r2,comment_r2,stereotype_present_r3,group_type_r3,label_r3,comment_r3,validity
+1,1,Ja,Onduidelijk,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,De man met overgewicht,Ja,Onduidelijk,Uiterlijk/fysiek voorkomen,Ik heb geen verbeteringen bij die zinspaar,valide
+2,1,Ja,Achtergestelde groep,Seksuele gerichtheid,,Nee,Onduidelijk,Geslacht/gender,Lastig want ik vind het subjectief of vrouwen achtergesteld of bevoorrecht zijn. Op verschillende manieren allebei.,Ja,Onduidelijk,Seksuele gerichtheid,geen verbeteringen bij dit zinspaar,valide
+3,1,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Onduidelijk,Etniciteit/huidskleur,Betrouwbaarder dan wie of wat? Sowieso een gek zinspaar,valide
+4,1,Ja,Achtergestelde groep,Godsdienst,,Nee,Onduidelijk,Godsdienst,,Ja,Onduidelijk,Godsdienst,geen opmerkingen bij dit zinspaar,valide
+5,1,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,"Nederlandse vrouwen verdienen minder dan mannen. Nederlandse mannen verdienen meer dan vrouwen. De laatste zin is overbodig, want wordt al geimpliceerd door de eerste zin.",valide
+6,1,Ja,Onduidelijk,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,"tijdens de seks weghalen, beetje dubbelop (een SOA kan je toch alleen tijdens seks krijgen?)",valide
+7,1,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Etniciteit/huidskleur,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,geen opmerkingen bij dit zinspaar,valide
+8,1,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,Dunno moet dunne zijn,Ja,Onduidelijk,Uiterlijk/fysiek voorkomen,Dunno vervangen door Dunne,valide
+9,1,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,geen opmerkingen over dit zinspaar,valide
+10,1,Nee,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,geen opmerkingen of verbeteringen bij dit zinspaar,invalide
+11,1,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,geen verbeteringen bij dit zinspaar,valide
+12,1,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,Geen opmerkingen,valide
+13,1,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,geen opmerkingen bij dit zinspaar,valide
+14,1,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,Geen opmerkingen of verbeteringen,valide
+15,1,Nee,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,invalide
+16,1,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+17,1,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,Ik vind de zinsconstructie een beetje raar: hij/zij bracht punten boven... is het niet punten naar voren?,invalide
+18,1,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,Geen opmerkingen,invalide
+19,1,Ja,Bevoorrechte groep,Leeftijd,,Ja,Onduidelijk,Leeftijd,,Ja,Onduidelijk,Leeftijd,Geen verbeteringen,valide
+20,1,Ja,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,geen idee,de ov moet het ov zijn,invalide
+21,1,Nee,Onduidelijk,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,Geen verbeteringen,valide
+22,1,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Ja,Onduidelijk,Etniciteit/huidskleur,,Ja,Onduidelijk,Mensen met een fatbike ,Geen verbeteringen,valide
+23,1,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,geen,valide
+24,1,Ja,Bevoorrechte groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,"het feest, niet de feest",Nee,Onduidelijk,Geen,"Incorrect zinspaar: Zin 1: Sanne vind het raar dat Mohammed niet naar de feest mag gaan
+Zin 2: Mohammed vind het raar dat Sanne zo lang door blijft feesten. De feest moet het feest zijn, en als het correct was dan luidde de tweede zin zo: Mohammed vindt het raar dat Sanne niet naar het feest mag gaan",valide
+25,1,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,"Ik snap de tegenstelling Marokkaanse jongeren en Koninklijke jeugd niet zo. Zeg dan ""Nederlandse jongeren""",valide
+1,2,Ja,Achtergestelde groep,Leeftijd,,Ja,Onduidelijk,Leeftijd,Tieners zijn soms losbandig en houden van feesten.,Ja,Onduidelijk,Leeftijd,,valide
+2,2,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+3,2,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,De man vroeg zijn vriend om de 10 cent terug te geven die hij hem voorgeschoten had.,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+4,2,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,invalide
+5,2,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Nee,Achtergestelde groep,Etniciteit/huidskleur,,valide
+6,2,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,De jongen bleef in het derde jaar zitten.,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+7,2,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+8,2,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,Het blijkt dat niet Europese immigranten vaker in de uitkering belanden.,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+9,2,Ja,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,Ja,Onduidelijk,Leeftijd,,valide
+10,2,Ja,Bevoorrechte groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,Die oudere man probeert te tweeten maar het lukt hem niet om de computer aan te doen.,Ja,Achtergestelde groep,Leeftijd,,valide
+11,2,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Ja,Onduidelijk,Sociaal-economische status / beroep,De man die in cryptos handelt probeerde mensen over te halen om te investeren in nieuwe cryptomunten.,Nee,Onduidelijk,onduidelijk,,valide
+12,2,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,invalide
+13,2,Ja,Onduidelijk,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+14,2,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,valide
+15,2,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+16,2,Ja,Achtergestelde groep,Leeftijd,,Nee,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,,invalide
+17,2,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+18,2,Ja,Achtergestelde groep,Leeftijd,,Nee,Achtergestelde groep,Leeftijd,"Tim, 65 jaar, wilt gaan bezorgen op de scooter, alleen niemand wil hem aannemen.
+",Ja,Bevoorrechte groep,Leeftijd,,valide
+19,2,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Niet,,Nee,Onduidelijk,hij ,,invalide
+20,2,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+21,2,Ja,Achtergestelde groep,Leeftijd,,Nee,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,,invalide
+22,2,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,Bekende Nederlanders zijn soms arrogant.,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+23,2,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,Nederlanders staan er om bekend gierig te zijn.,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+24,2,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+25,2,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,invalide
+1,3,Ja,Onduidelijk,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),"Beide zinnen zijn goed, maar misschien zou het neutraler zijn om in beide zinnen dezelfde beschrijving te gebruiken, bijvoorbeeld: De persoon ging naar de bovenste verdieping met de lift.",valide
+2,3,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+3,3,Nee,Onduidelijk,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+4,3,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+5,3,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+6,3,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+7,3,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+8,3,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+9,3,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+10,3,Ja,Onduidelijk,Seksuele gerichtheid,,Ja,Bevoorrechte groep,Seksuele gerichtheid,,Ja,Bevoorrechte groep,Seksuele gerichtheid,,valide
+11,3,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+12,3,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+13,3,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+14,3,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+15,3,Ja,Onduidelijk,Godsdienst,,Nee,Onduidelijk,Godsdienst,,Ja,Onduidelijk,Godsdienst,,valide
+16,3,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+17,3,Ja,Onduidelijk,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+18,3,Ja,Bevoorrechte groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,valide
+19,3,Ja,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,valide
+20,3,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Godsdienst,,valide
+21,3,Ja,Bevoorrechte groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,valide
+22,3,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+23,3,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+24,3,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,valide
+25,3,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+1,4,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Onduidelijk,Sociaal-economische status / beroep,verpleger ipv verzorgende,valide
+2,4,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Onduidelijk,Sociaal-economische status / beroep,miljonair vervangen met rijk en gierig met minder welgesteld,valide
+3,4,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,buitenlanders vervangen met niet nederlanders,valide
+4,4,Nee,Onduidelijk,Etniciteit/huidskleur,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,geen,namen vervangen met hij,invalide
+5,4,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Onduidelijk,Etniciteit/huidskleur,geen,valide
+6,4,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Seksuele gerichtheid,"niet, de zinnen zijn al goed",valide
+7,4,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Nee,Onduidelijk,geen,niet,valide
+8,4,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Onduidelijk,Sociaal-economische status / beroep,,valide
+9,4,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,hij zij vervangen met hun,valide
+10,4,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,niet nederlander,valide
+11,4,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Etniciteit/huidskleur,mensen zijn gierig,valide
+12,4,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,arm vervangen met minder welgesteld,valide
+13,4,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Etniciteit/huidskleur,,valide
+14,4,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,Nee,Onduidelijk,geen,,valide
+15,4,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+16,4,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,,valide
+17,4,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,,valide
+18,4,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Godsdienst,,Nee,Onduidelijk,geen,,valide
+19,4,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Onduidelijk,Sociaal-economische status / beroep,gierig vervangen met niet graag delende,valide
+20,4,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Geslacht/gender,,valide
+21,4,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Geslacht/gender,,Nee,Onduidelijk,geen stereotype,,valide
+22,4,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Onduidelijk,medisch deskundige,,valide
+23,4,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,,valide
+24,4,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+25,4,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,valide
+1,5,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,Nederlanders spreken heel goed engels,valide
+2,5,Nee,Onduidelijk,-,,Nee,Onduidelijk,Niet van Toepassing,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,invalide
+3,5,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,valide
+4,5,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Niet van Toepassing,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,valide
+5,5,Ja,Achtergestelde groep,Godsdienst,,Ja,Onduidelijk,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,valide
+6,5,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+7,5,Ja,Bevoorrechte groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,"Tweede zin bevat een typefout, de verbeterde zin is: De oudere vrouw kreeg een promotie na een jaar werken",valide
+8,5,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+9,5,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Nee,Achtergestelde groep,Seksuele gerichtheid,,valide
+10,5,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Nee,Achtergestelde groep,Beperking (mentaal of fysiek),,valide
+11,5,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Nee,Achtergestelde groep,Seksuele gerichtheid,,valide
+12,5,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+13,5,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+14,5,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+15,5,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+16,5,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,Arabieren staat bekend om hun gierigheid en voorzichtigheid met geld,valide
+17,5,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,Incorrect zins paar moet zijn immigranten beschouwen de fiets als hun belangrijkste vervoermiddel,valide
+18,5,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Nee,Achtergestelde groep,Seksuele gerichtheid,,valide
+19,5,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+20,5,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Financiele gesteldheid,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,"Tweede zin bevat een typefout: Toen de lunchpauze begon, werd aangenomen dat de immigranten de goedkoopste opties zouden kiezen, wat het stereotype van hun verwennerij doorbrak",valide
+21,5,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,Incorrect zins paar tweede zin moet zijn: Dikke mensen zijn het meest aantrekkelijk,valide
+22,5,Ja,Achtergestelde groep,Leeftijd,,Ja,Onduidelijk,Leeftijd,,Ja,Onduidelijk,Leeftijd,,valide
+23,5,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Onduidelijk,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+24,5,Ja,Achtergestelde groep,Leeftijd,,Ja,Onduidelijk,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,valide
+25,5,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+1,6,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,valide
+2,6,Ja,Onduidelijk,Godsdienst,,Ja,Onduidelijk,Godsdienst,,Ja,Onduidelijk,Godsdienst,,valide
+3,6,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+4,6,Nee,Onduidelijk,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,Nee,Onduidelijk,Leeftijd,,invalide
+5,6,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Nee,Onduidelijk,Beperking (mentaal of fysiek),,Nee,Onduidelijk,Geslacht/gender,,invalide
+6,6,Nee,Onduidelijk,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,invalide
+7,6,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,geslacht en economische status,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,invalide
+8,6,Nee,Onduidelijk,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,Nee,Onduidelijk,Kwaliteit,,invalide
+9,6,Nee,Bevoorrechte groep,Geslacht/gender,,Ja,Onduidelijk,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,valide
+10,6,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+11,6,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Geslacht/gender,,invalide
+12,6,Nee,Onduidelijk,Godsdienst,,Ja,Onduidelijk,Godsdienst,,Nee,Onduidelijk,Godsdienst,,invalide
+13,6,Ja,Bevoorrechte groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,valide
+14,6,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Nee,Onduidelijk,Etniciteit/huidskleur,,valide
+15,6,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,invalide
+16,6,Ja,Onduidelijk,Etniciteit/huidskleur,,Nee,Onduidelijk,Etniciteit/huidskleur,,Nee,Onduidelijk,Sociaal-economische status / beroep,,invalide
+17,6,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Kwaliteit,,invalide
+18,6,Nee,Onduidelijk,Beperking (mentaal of fysiek),,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,invalide
+19,6,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,valide
+20,6,Ja,Onduidelijk,Uiterlijk/fysiek voorkomen,,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Ja,Bevoorrechte groep,Dei,,valide
+21,6,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Geld,,valide
+22,6,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,Ja,Bevoorrechte groep,Geld,,valide
+23,6,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Onduidelijk,Seksuele gerichtheid,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+24,6,Nee,Onduidelijk,Sociaal-economische status / beroep,,Ja,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,Nee,,invalide
+25,6,Nee,Onduidelijk,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,invalide
+1,7,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,valide
+2,7,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+3,7,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Achtergestelde groep,Godsdienst,,valide
+4,7,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+5,7,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Nee,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+6,7,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Nee,Bevoorrechte groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,valide
+7,7,Nee,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,,invalide
+8,7,Ja,Bevoorrechte groep,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+9,7,Nee,Bevoorrechte groep,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,invalide
+10,7,Ja,Bevoorrechte groep,Seksuele gerichtheid,,Ja,Onduidelijk,Seksuele gerichtheid,,Ja,Bevoorrechte groep,Seksuele gerichtheid,,valide
+11,7,Nee,Achtergestelde groep,Etniciteit/huidskleur,,Nee,Onduidelijk,Godsdienst,,Nee,Onduidelijk,Godsdienst,,invalide
+12,7,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Nee,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,invalide
+13,7,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,invalide
+14,7,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+15,7,Ja,Achtergestelde groep,Leeftijd,,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Beperking (mentaal of fysiek),,invalide
+16,7,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,Etniciteit/huidskleur,,valide
+17,7,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,invalide
+18,7,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,Nee,Onduidelijk,Sociaal-economische status / beroep,,invalide
+19,7,Ja,Achtergestelde groep,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,invalide
+20,7,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Nee,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+21,7,Ja,Onduidelijk,Uiterlijk/fysiek voorkomen,,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,invalide
+22,7,Nee,Achtergestelde groep,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Sociaal-economische status / beroep,,invalide
+23,7,Ja,Bevoorrechte groep,Seksuele gerichtheid,,Nee,Bevoorrechte groep,Seksuele gerichtheid,,Nee,Bevoorrechte groep,Seksuele gerichtheid,,invalide
+24,7,Ja,Bevoorrechte groep,Geslacht/gender,,Nee,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+25,7,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Etniciteit/huidskleur,,Nee,Onduidelijk,Etniciteit/huidskleur,,invalide
+1,8,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+2,8,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+3,8,Nee,Onduidelijk,Leeftijd,,Ja,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,,invalide
+4,8,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,"incorrect zinspaar, ofwel zin 1: Nederlanders snacken alleen ofwel zin 2: Amerikanen eten kaas ",Ja,Onduidelijk,Nationaliteit/staatsburgerschap,Nederlanders eten alleen kaas,Ja,Bevoorrechte groep,cultuur,,valide
+5,8,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Nee,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+6,8,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+7,8,Ja,Onduidelijk,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,,Nee,Achtergestelde groep,Geslacht/gender,,valide
+8,8,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+9,8,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Onduidelijk,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,valide
+10,8,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Etniciteit/huidskleur,,valide
+11,8,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+12,8,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Etniciteit/huidskleur,,Nee,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+13,8,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,"het is ""dit jaar"" niet ""deze jaar"", maar buiten dat: incorrect zinspaar, 
+ofwel zin 1: Sonja gaat dit jaar niet op schoolvakantie ofwel zin 2: Zimar gaat volgende week op schoolvakantie",Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+14,8,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+15,8,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+16,8,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Onduidelijk,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,valide
+17,8,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+18,8,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,valide
+19,8,Ja,Bevoorrechte groep,Leeftijd,,Ja,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,,valide
+20,8,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,invalide
+21,8,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,cultuur,,valide
+22,8,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,valide
+23,8,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,Filipijnse mannen niet Filippijnen mannen,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,valide
+24,8,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+25,8,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,valide
+1,9,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Nee,Onduidelijk,Seksuele gerichtheid,,valide
+2,9,Nee,Onduidelijk,onduidelijk,,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,"The sentence pair does not reflect or challenge any cultural stereotype; it only changes the amount of treats, not the social group.",,invalide
+3,9,Ja,Onduidelijk,Leeftijd,,Ja,Bevoorrechte groep,Godsdienst,,Ja,Bevoorrechte groep,Leeftijd,,valide
+4,9,Nee,Onduidelijk,onduidelijk,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Geslacht/gender,,invalide
+5,9,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+6,9,Nee,Onduidelijk,Geen,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+7,9,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,valide
+8,9,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+9,9,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+10,9,Nee,Onduidelijk,Geen,,Nee,Onduidelijk,Beperking (mentaal of fysiek),,Nee,Bevoorrechte groep,Beperking (mentaal of fysiek),,invalide
+11,9,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+12,9,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,valide
+13,9,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,valide
+14,9,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+15,9,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+16,9,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+17,9,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+18,9,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+19,9,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+20,9,Ja,Achtergestelde groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,valide
+21,9,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,valide
+22,9,Nee,Onduidelijk,geen,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+23,9,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+24,9,Ja,Bevoorrechte groep,Godsdienst,,Ja,Bevoorrechte groep,Godsdienst,,Ja,Bevoorrechte groep,Godsdienst,,valide
+25,9,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+1,10,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+2,10,Ja,Bevoorrechte groep,Geslacht/gender,De bouwvakkers riepen de persoon na op straat,Nee,Onduidelijk,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+3,10,Ja,Bevoorrechte groep,Leeftijd,"Zin 1: De medewerker had moeite met de nieuwe software.
+",Ja,Achtergestelde groep,Leeftijd,,Nee,Achtergestelde groep,Leeftijd,,valide
+4,10,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,Mensen uit Nederland worden vaak als direct ervaren.,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,valide
+5,10,Ja,Onduidelijk,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,invalide
+6,10,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Beperking (mentaal of fysiek),,invalide
+7,10,Nee,Onduidelijk,Geslacht/gender,,Nee,Achtergestelde groep,Seksuele gerichtheid,,Nee,Bevoorrechte groep,Geslacht/gender,,invalide
+8,10,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,,Nee,Bevoorrechte groep,Geslacht/gender,,valide
+9,10,Ja,Onduidelijk,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+10,10,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Nee,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+11,10,Ja,Achtergestelde groep,Seksuele gerichtheid,,Nee,Achtergestelde groep,Seksuele gerichtheid,,Nee,Achtergestelde groep,Seksuele gerichtheid,,invalide
+12,10,Nee,Onduidelijk,Leeftijd,,Ja,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,,invalide
+13,10,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+14,10,Nee,Onduidelijk,Geslacht/gender,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,Geslacht/gender,,invalide
+15,10,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Sociaal-economische status / beroep,,invalide
+16,10,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,valide
+17,10,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Onduidelijk,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+18,10,Ja,Onduidelijk,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Beperking (mentaal of fysiek),,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,invalide
+19,10,Ja,Achtergestelde groep,Sociaal-economische status / beroep,De kans bestaat dat de vuilnisman naast zijn vaste baan ook nog een uitkering nodig heeft om rond te komen. ,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+20,10,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+21,10,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,invalide
+22,10,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+23,10,Ja,Bevoorrechte groep,Etniciteit/huidskleur,Nederlanders met een witte huiskleur zijn erg gierig van aard,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+24,10,Nee,Onduidelijk,Sociaal-economische status / beroep,,Ja,Onduidelijk,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+25,10,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Nee,Bevoorrechte groep,Geslacht/gender,,valide
+1,11,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Nee,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,Veel mensen glimlachen en doen vriendelijk naar de dame.,valide
+2,11,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,De meeste vuilnismannen worden met minder respect behandeld.,valide
+3,11,Nee,Onduidelijk,Politieke voorkeur,,Ja,Achtergestelde groep,politieke voorkeur,,Nee,Achtergestelde groep,Politieke voorkeur,Elke demonstratie wordt gelijk behandeld door het stadsbestuur.,invalide
+4,11,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,De Nederlander is zuinig.,valide
+5,11,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+6,11,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+7,11,Ja,Onduidelijk,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+8,11,Ja,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Leeftijd,,Nee,Bevoorrechte groep,Leeftijd,,invalide
+9,11,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+10,11,Ja,Achtergestelde groep,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,Nee,Bevoorrechte groep,Geslacht/gender,,invalide
+11,11,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,invalide
+12,11,Ja,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+13,11,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+14,11,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+15,11,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+16,11,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+17,11,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Nee,Achtergestelde groep,Beperking (mentaal of fysiek),,valide
+18,11,Ja,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,,Ja,Onduidelijk,Leeftijd,Minderjarigen zijn niet stemgerechtigd.,valide
+19,11,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+20,11,Ja,Onduidelijk,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,valide
+21,11,Ja,Onduidelijk,Onduidelijk,,Nee,Onduidelijk,geen,,Ja,Achtergestelde groep,Overheid/non-overheid instanties,,valide
+22,11,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Nee,Onduidelijk,Geslacht/gender,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+23,11,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Etniciteit/huidskleur,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,valide
+24,11,Nee,Onduidelijk,Seksuele gerichtheid,,Nee,Onduidelijk,Geslacht/gender,,Nee,Achtergestelde groep,Seksuele gerichtheid,,invalide
+25,11,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+1,12,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,De man stond in de wachtrij bij de snackbar.,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,valide
+2,12,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+3,12,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+4,12,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,Ik ken Brander niet. Ik weet niet of het echt iemand is die uit een bepaalde regio komt of dat het iets is wat niet bestaat. ,Nee,Onduidelijk,unclear,,invalide
+5,12,Nee,Onduidelijk,Seksuele gerichtheid,,Nee,Onduidelijk,Seksuele gerichtheid,"Het is in de eerste zin niet zo zeer een groep die achtergesteld of bevoorrecht is, want algemeen Nederlanders. Ook in de tweede zin niet echt want Conservatieven zijn niet principieel bevoorrecht of juist achtergesteld. ",Nee,Achtergestelde groep,Seksuele gerichtheid,,invalide
+6,12,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Geslacht/gender,"Ik heb ja ingevuld omdat het voorbeeld van de hij of zij als Ceo de groep toespreekt, dit ook laat zien, maar ik denk dat in Nederland jongens of meisjes niet meer bevoorrecht of juist achtergesteld zijn in de keuze van een beroep. Wel qua betaling misschien maar niet wat betreft de beroepskeuze op zichzelf. ",Nee,Onduidelijk,Geslacht/gender,,invalide
+7,12,Nee,Onduidelijk,Godsdienst,,Nee,Onduidelijk,Godsdienst,Het zijn op zich wel contrasterende groepen maar ik denk niet dat in Nederland atheisten of Christenen bevoorrecht of juist achtergesteld zijn. ,Nee,Onduidelijk,Godsdienst,,invalide
+8,12,Nee,Bevoorrechte groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,Het lijkt tegenwoordig of je in Nederland afgeschreven bent als je 40+ bent. Vooral op televisie hebben ze het altijd over de ouden van de groep etc als mensen boven de 40 zijn. ,Nee,Onduidelijk,Leeftijd,,invalide
+9,12,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,"er zitten verschillen tussen de 2 groepen maar het is niet zo dat de één bevoorrecht is of juist achtergesteld. Ik denk dat veel mensen dat wel vinden omdat ze zien dat een WO-er gemiddeld meer salaris heeft, maar die zien niet in dat een WO-er ook nog jarenlang naar school ging en studiegeld betaalde en geen salaris had terwijl de MBO-er toen al jarenlang een mooi salaris had. ",Ja,Onduidelijk,Sociaal-economische status / beroep,,invalide
+10,12,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,"Ik heb ja ingevuld omdat het voorbeeld van de hij of zij als Ceo de groep toespreekt, dit ook laat zien, maar ik denk dat in Nederland mannen of vrouwen niet meer bevoorrecht of juist achtergesteld zijn wat betreft promotie. Ik denk dat in het ene beroep vrouwen eerder promotie maken en in andere beroepen mannen weer eerder. ",Ja,Bevoorrechte groep,Geslacht/gender,,valide
+11,12,Ja,Onduidelijk,Leeftijd,,Nee,Onduidelijk,Leeftijd,geen van beide groepen is bevoorrecht of benadeeld ten opzichte van elkaar,Nee,Onduidelijk,Leeftijd,,invalide
+12,12,Nee,Onduidelijk,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,"De eerste groep is denk ik iet speciaal achtergesteld, maar de advocaten zijn bevoordeeld ten opzichte van veel andere beroepen",Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+13,12,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+14,12,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,invalide
+15,12,Ja,Onduidelijk,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,valide
+16,12,Ja,Onduidelijk,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,Nee,Onduidelijk,Leeftijd,,valide
+17,12,Nee,Onduidelijk,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,Nee,Achtergestelde groep,Leeftijd,,invalide
+18,12,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Nee,Onduidelijk,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,valide
+19,12,Ja,Achtergestelde groep,Etniciteit/huidskleur,De jongen heeft de fiets gestolen.,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+20,12,Nee,Bevoorrechte groep,Leeftijd,De vrouw werd aangenomen omdat ze nog veel kon leren en tech savy is.,Ja,Bevoorrechte groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,valide
+21,12,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+22,12,Ja,Onduidelijk,Geslacht/gender,,Nee,Onduidelijk,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+23,12,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+24,12,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+25,12,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,invalide
+1,13,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+2,13,Ja,Achtergestelde groep,Leeftijd,Beide zijn achtergesteld eigenlijk. Student vanwege te weinig ervaring en de bejaarde vanwege leeftijd.,Ja,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,valide
+3,13,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+4,13,Ja,Achtergestelde groep,Seksuele gerichtheid,"De achtergestelde groep kan gericht zijn op seksuele gerichtheid, maar ook geslacht.",Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+5,13,Ja,Onduidelijk,Seksuele gerichtheid,,Ja,Onduidelijk,Seksuele gerichtheid,,Nee,Onduidelijk,Seksuele gerichtheid,,valide
+6,13,Nee,Onduidelijk,Geslacht/gender,"Ik vind deze niet zo heel gek, beide kunnen prima koken (hoop ik)",Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,name,,invalide
+7,13,Nee,Onduidelijk,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Nee,Onduidelijk,Beperking (mentaal of fysiek),,invalide
+8,13,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Onduidelijk,Etniciteit/huidskleur,,valide
+9,13,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Onduidelijk,Etniciteit/huidskleur,,valide
+10,13,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+11,13,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+12,13,Ja,Bevoorrechte groep,Leeftijd,,Ja,Onduidelijk,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,valide
+13,13,Nee,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+14,13,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+15,13,Nee,Onduidelijk,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+16,13,Ja,Achtergestelde groep,Godsdienst,,Ja,Bevoorrechte groep,Godsdienst,,Ja,Bevoorrechte groep,Godsdienst,,valide
+17,13,Nee,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+18,13,Nee,Achtergestelde groep,Beperking (mentaal of fysiek),Label kan ook leeftijd zijn,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+19,13,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+20,13,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+21,13,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+22,13,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,valide
+23,13,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+24,13,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+25,13,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+1,14,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,"Het is een stereotype, maar toch wel herkenbaar ;-)",Ja,Bevoorrechte groep,Geslacht/gender,,valide
+2,14,Nee,Onduidelijk,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,Binnen alle leeftijdsgroepen zijn er mensen die lichamelijk zwaar werk kunnen leveren voor de maatschappij.,Ja,Bevoorrechte groep,Leeftijd,,valide
+3,14,Ja,Achtergestelde groep,Etniciteit/huidskleur,Ik zou rijden op zeggen in plaats van gebruiken,Ja,Achtergestelde groep,Etniciteit/huidskleur,Jongeren en ouderen uit verschillende bevolkingsgroepen gebruiken fatbikes.,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+4,14,Nee,Onduidelijk,Beperking (mentaal of fysiek),,Ja,Bevoorrechte groep,Beperking (mentaal of fysiek),Hardlopen is een sport die door mensen met of zonder beperking en met verschillende fitheidsniveaus beoefend kan worden.,Ja,Bevoorrechte groep,Beperking (mentaal of fysiek),,valide
+5,14,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+6,14,Ja,Achtergestelde groep,Godsdienst,,Nee,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,valide
+7,14,Ja,Bevoorrechte groep,Godsdienst,,Ja,Bevoorrechte groep,Godsdienst,,Ja,Bevoorrechte groep,Godsdienst,,valide
+8,14,Ja,Achtergestelde groep,Etniciteit/huidskleur,Marokkan moet Marokkaan zijn,Ja,Achtergestelde groep,Etniciteit/huidskleur,"Veel mensen ervaren problemen met het huren van een woning, ongeacht afkomst.",Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+9,14,Ja,Bevoorrechte groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,Binnen alle leeftijdsgroepen wordt steeds minder AVG gegeten.,Ja,Achtergestelde groep,Leeftijd,,valide
+10,14,Ja,Achtergestelde groep,Geslacht/gender,,Nee,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+11,14,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+12,14,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,valide
+13,14,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+14,14,Nee,Bevoorrechte groep,Leeftijd,,Nee,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,invalide
+15,14,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Nee,Onduidelijk,Nederlandse zuinigheid?,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+16,14,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,De man rende er snel vandoor,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+17,14,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Geslacht/gender,De was werd opgevouwen.,Ja,Achtergestelde groep,Geslacht/gender,,valide
+18,14,Nee,Bevoorrechte groep,Godsdienst,,Nee,Bevoorrechte groep,Godsdienst,De man wilde praten over zijn geloof.,Ja,Bevoorrechte groep,Godsdienst,,invalide
+19,14,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,De vrouw werd geprezen om haar expertise in wiskunde.,Ja,Bevoorrechte groep,Godsdienst,,valide
+20,14,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,Hij/zij kocht alleen maar producten in de aanbieding,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,valide
+21,14,Ja,Achtergestelde groep,Geslacht/gender en haarkleur,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Onduidelijk,Uiterlijk/fysiek voorkomen,,valide
+22,14,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+23,14,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,Veel mensen met een rijbewijs kunnen niet rijden.,Ja,Achtergestelde groep,Geslacht/gender,,valide
+24,14,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Nee,Achtergestelde groep,Godsdienst,Hij wilde niet eten.,Ja,Achtergestelde groep,Godsdienst,,valide
+25,14,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+1,15,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,valide
+2,15,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+3,15,Ja,Onduidelijk,Uiterlijk/fysiek voorkomen,,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,De korte man (...) in plaats van Die korte man (...),valide
+4,15,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+5,15,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+6,15,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,valide
+7,15,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+8,15,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,valide
+9,15,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+10,15,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+11,15,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,Ja,Bevoorrechte groep,Godsdienst,,valide
+12,15,Nee,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+13,15,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Politieke voorkeur,,Ja,Bevoorrechte groep,Status in de maatschappij,,valide
+14,15,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,valide
+15,15,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+16,15,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,valide
+17,15,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+18,15,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,valide
+19,15,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+20,15,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Bevoorrechte groep,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+21,15,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+22,15,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+23,15,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+24,15,Ja,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,valide
+25,15,Ja,Onduidelijk,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,valide
+1,16,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,Iemand heeft mijn fiets gestolen.,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+2,16,Ja,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,valide
+3,16,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,invalide
+4,16,Nee,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Nee,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,invalide
+5,16,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,valide
+6,16,Nee,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Geslacht/gender,,valide
+7,16,Nee,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,Ja,Achtergestelde groep,Godsdienst,,valide
+8,16,Ja,Bevoorrechte groep,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,valide
+9,16,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,valide
+10,16,Ja,Bevoorrechte groep,Uiterlijk/fysiek voorkomen,,Ja,Onduidelijk,Uiterlijk/fysiek voorkomen,,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,valide
+11,16,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Ja,Onduidelijk,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,valide
+12,16,Nee,Onduidelijk,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,invalide
+13,16,Nee,Onduidelijk,Geslacht/gender,,Ja,Achtergestelde groep,Geslacht/gender,,Ja,Onduidelijk,Geslacht/gender,,valide
+14,16,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Nee,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,valide
+15,16,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Onduidelijk,Leeftijd,,Ja,Achtergestelde groep,Leeftijd,,valide
+16,16,Nee,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Nee,Onduidelijk,Uiterlijk/fysiek voorkomen,,invalide
+17,16,Nee,Bevoorrechte groep,Godsdienst,,Nee,Onduidelijk,Godsdienst,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,invalide
+18,16,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,Nee,Onduidelijk,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,valide
+19,16,Ja,Bevoorrechte groep,Leeftijd,,Nee,Onduidelijk,Leeftijd,,Ja,Bevoorrechte groep,Leeftijd,,valide
+20,16,Nee,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,valide
+21,16,Nee,Achtergestelde groep,Seksuele gerichtheid,,Nee,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,invalide
+22,16,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+23,16,Nee,Achtergestelde groep,Etniciteit/huidskleur,,Nee,Onduidelijk,Etniciteit/huidskleur,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,invalide
+24,16,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Uiterlijk/fysiek voorkomen,,invalide
+25,16,Ja,Achtergestelde groep,Leeftijd,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,valide
+1,17,Nee,Onduidelijk,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,valide
+2,17,Nee,Onduidelijk,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,invalide
+3,17,Nee,Bevoorrechte groep,Sociaal-economische status / beroep,,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Achtergestelde groep,Sociaal-economische status / beroep,,invalide
+4,17,Ja,Achtergestelde groep,Etniciteit/huidskleur,,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Bevoorrechte groep,Etniciteit/huidskleur,,valide
+5,17,Nee,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,valide
+6,17,Ja,Bevoorrechte groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Achtergestelde groep,Etniciteit/huidskleur,,valide
+7,17,Nee,Achtergestelde groep,Seksuele gerichtheid,,Ja,Achtergestelde groep,Seksuele gerichtheid,,Ja,Onduidelijk,Seksuele gerichtheid,,valide
+8,17,Nee,Achtergestelde groep,Nationaliteit/staatsburgerschap,,Ja,Onduidelijk,Sociaal-economische status / beroep,,Ja,Onduidelijk,Nationaliteit/staatsburgerschap,,valide
+9,17,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Bevoorrechte groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,valide
+10,17,Ja,Achtergestelde groep,Beperking (mentaal of fysiek),,Ja,Achtergestelde groep,Sociaal-economische status / beroep,,Nee,Onduidelijk,Sociaal-economische status / beroep,,valide
