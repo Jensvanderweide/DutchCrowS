@@ -6,6 +6,8 @@ from tqdm import tqdm
 import torch
 import argparse
 
+from huggingface_hub import login
+login(token="")
 
 def overlap(seq1, seq2):
     """Finds the overlap between two token ID sequences."""
@@ -58,6 +60,18 @@ def compare_pair(pair, lm):
         sent1_token_ids_no_bos[0][matching_tokens1].cpu()
     )
 
+    all_tokens1 = tokenizer.convert_ids_to_tokens(sent1_token_ids_no_bos[0])
+    all_tokens2 = tokenizer.convert_ids_to_tokens(sent2_token_ids_no_bos[0])
+
+    non_matching_tokens1 = [ 
+        tok for i, tok in enumerate(all_tokens1) if i not in matching_tokens1
+    ]
+
+    non_matching_tokens2 = [ 
+        tok for i, tok in enumerate(all_tokens2) if i not in matching_tokens2
+    ]
+
+
     with torch.no_grad():
         # output-matrix from model for both sentences [seq_len, vocab_size]
         matrix1 = model(sent1_token_ids)[0].squeeze(0)
@@ -82,6 +96,7 @@ def compare_pair(pair, lm):
         "sent1_pseudolog": sent1_log_probs,
         "sent2_pseudolog": sent2_log_probs,
         "preferred": preferred,
+        "overlap": (non_matching_tokens1, non_matching_tokens2)
     }
 
 def evaluate(lm, data, sample_size=None, model_name=None):
@@ -139,6 +154,7 @@ def evaluate(lm, data, sample_size=None, model_name=None):
                     "score": pair_score,
                     "stereo_antistereo": direction,
                     "bias_type": bias,
+                    "overlap": score["overlap"]
                 }
             )
     df_score = pd.DataFrame(results)
@@ -205,6 +221,22 @@ if __name__ == "__main__":
     if args.model_name == 'EuroLLM1.7B': 
         tokenizer = AutoTokenizer.from_pretrained("utter-project/EuroLLM-1.7B")
         model = AutoModelForCausalLM.from_pretrained("utter-project/EuroLLM-1.7B")
+
+    if args.model_name == 'EuroLLM9BInstruct': 
+        tokenizer = AutoTokenizer.from_pretrained("utter-project/EuroLLM-9B-Instruct")
+        model = AutoModelForCausalLM.from_pretrained("utter-project/EuroLLM-9B-Instruct", load_in_8bit=True)
+
+    if args.model_name == 'Gemma-3-1b': 
+        tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-1b-it")
+        model = AutoModelForCausalLM.from_pretrained("google/gemma-3-1b-it")
+
+    if args.model_name == 'Llama-3.2-3B': 
+        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3.2-3B")
+        model = AutoModelForCausalLM.from_pretrained("meta-llama/Meta-Llama-3.2-3B")
+
+    if args.model_name == 'deepseek1.5B': 
+        tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B")
+        model = AutoModelForCausalLM.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B")
 
     print("Model ready!")
 
