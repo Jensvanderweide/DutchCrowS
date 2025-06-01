@@ -93,6 +93,8 @@ def evaluate(lm, data, sample_size=None, model_name=None):
         eval_data = data.sample(sample_size, random_state=42)
     else:
         eval_data = data
+
+    print(len(eval_data))
     results = []
     total_stereo, total_antistereo = 0, 0
     stereo_score, antistereo_score = 0, 0
@@ -142,7 +144,7 @@ def evaluate(lm, data, sample_size=None, model_name=None):
             )
     df_score = pd.DataFrame(results)
     df_score.to_csv(
-        f"experiment_results/likelihood_evaluation_results_{model_name}.csv",
+        f"experiment_results/likelihood_evaluation_results_{model_name}_n={sample_size}.csv",
         index=False,
     )
     print("=" * 100)
@@ -195,6 +197,10 @@ if __name__ == "__main__":
     if args.model_name == 'gpt2': 
         tokenizer = AutoTokenizer.from_pretrained('gpt2')
         model = AutoModelForCausalLM.from_pretrained('gpt2')
+
+    if args.model_name == 'gpt2-medium': 
+        tokenizer = AutoTokenizer.from_pretrained('openai-community/gpt2-medium')
+        model = AutoModelForCausalLM.from_pretrained('openai-community/gpt2-medium')
 
     if args.model_name == 'EuroLLM1.7B': 
         tokenizer = AutoTokenizer.from_pretrained("utter-project/EuroLLM-1.7B")
