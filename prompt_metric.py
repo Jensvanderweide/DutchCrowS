@@ -195,7 +195,7 @@ def evaluate_prompt(lm, data, sample_size=None, model_name=None):
 
     # Convert list to DataFrame
     df_score = pd.DataFrame(results)
-    df_score.to_csv('prompt_data/stereotype_evaluation_results_prompt.csv', index=False)
+    df_score.to_csv('experiment_results/(test)stereotype_evaluation_results_prompt.csv', index=False)
 
     print('=' * 100)
     print(f'STEREOTYPE EVALUATION RESULTS - {model_name}')  
@@ -236,7 +236,7 @@ if __name__ == "__main__":
 
     # ======== DATA ========
     print("Loading data....")
-    data_path = "data_processing_for_validation/final.csv"  # Consider making this a command-line argument
+    data_path = "preprocessed_crows_pairs_neveol_revised.csv"  # Consider making this a command-line argument
     try:
         data = read_data(data_path)
         print("Data loaded!")
