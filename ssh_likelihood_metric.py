@@ -224,7 +224,7 @@ if __name__ == "__main__":
 
     if args.model_name == 'EuroLLM9BInstruct': 
         tokenizer = AutoTokenizer.from_pretrained("utter-project/EuroLLM-9B-Instruct")
-        model = AutoModelForCausalLM.from_pretrained("utter-project/EuroLLM-9B-Instruct", load_in_8bit=True)
+        model = AutoModelForCausalLM.from_pretrained("utter-project/EuroLLM-9B-Instruct")
 
     if args.model_name == 'Gemma-3-1b': 
         tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-1b-it")
