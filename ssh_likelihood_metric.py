@@ -237,6 +237,25 @@ if __name__ == "__main__":
     if args.model_name == 'deepseek1.5B': 
         tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B")
         model = AutoModelForCausalLM.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B")
+    
+    if args.model_name == 'bloomz7b1-mt': 
+        tokenizer = AutoTokenizer.from_pretrained("bigscience/bloomz-7b1-mt")
+        model = AutoModelForCausalLM.from_pretrained("bigscience/bloomz-7b1-mt")
+        
+    if args.model_name == 'mistral7b-instruct-v0.1': 
+        tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
+        model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
+    
+    if args.model_name == 'gemma-3-4b-it': 
+        tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it")
+        model = AutoModelForCausalLM.from_pretrained("google/gemma-3-4b-it")
+    
+    if args.model_name == 'DeepSeek-R1-Distill-Qwen-7B': 
+        tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
+        model = AutoModelForCausalLM.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
+
+    
+    
 
     print("Model ready!")
 
