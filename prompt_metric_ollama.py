@@ -8,7 +8,7 @@ import random
 def get_chat_model(model_name: str, temperature: float):
     chat_model = ChatOllama(
         temperature=temperature,
-        base_url="https://ollama-server.ada.tnods.nl",
+        base_url="",
         model=model_name,
     )
     return chat_model

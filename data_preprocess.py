@@ -32,7 +32,7 @@ def read_data(input_file):
                        'bias_type': bias_type}
             df = df._append(df_item, ignore_index=True)
 
-    df.to_csv("preprocessed_" + input_file.replace(".csv", "") + ".csv", index=False)
+    df.to_csv("preprocessed_" + input_file.replace(".csv", "") + ".csv", index=False, sep='\t')
     print(f"Saved restructured data to: restructured_{input_file.replace('.csv', '')}.csv")
             
     return df 

@@ -5,8 +5,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from tqdm import tqdm
 import torch
 import argparse
-
 from huggingface_hub import login
+
 login(token="")
 
 def overlap(seq1, seq2):
@@ -257,5 +257,5 @@ if __name__ == "__main__":
         "uncased": False,
         "device": device,
     }
-    data = pd.read_csv(args.data_path)
+    data = pd.read_csv(args.data_path, sep='/t')
     evaluate(lm, data, sample_size=args.sample_size, model_name=args.model_name)
