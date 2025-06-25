@@ -7,8 +7,7 @@ from tqdm import tqdm
 from openai import OpenAI
 import os
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+client = OpenAI(api_key="")
 
 # Setup OpenAI API Key
 
@@ -154,5 +153,5 @@ if __name__ == "__main__":
             "device": device,
         }
 
-    data = pd.read_csv(data_path)
+    data = pd.read_csv(data_path, sep='\t')
     evaluate(lm, data, sample_size=args.sample_size, model_name=model_name, eval_mode=args.eval_mode, data_path=data_path)
