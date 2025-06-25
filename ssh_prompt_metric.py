@@ -9,24 +9,9 @@ import random
 
 from huggingface_hub import login
 login(token="")
-
-def overlap(seq1, seq2):
-    seq1 = [str(x) for x in seq1.tolist()]
-    seq2 = [str(x) for x in seq2.tolist()]
-    matching_tokens1, matching_tokens2 = [], []
-    matcher = difflib.SequenceMatcher(None, seq1, seq2)
-    for op in matcher.get_opcodes():
-        if op[0] == "equal":
-            matching_tokens1 += list(range(op[1], op[2]))
-            matching_tokens2 += list(range(op[3], op[4]))
-    return matching_tokens1, matching_tokens2
-
-def prob_next_token(matrix, token_ids, next_idx, lm):
-    log_softmax = lm["log_softmax"]
-    next_token_scores = matrix[next_idx]
-    target_word_id = token_ids[0][next_idx]
-    log_prob = log_softmax(next_token_scores)[target_word_id]
-    return {"log_prob": log_prob}
+ 
+SEED = 42
+random.seed(42)
 
 def compare_pair_prompt(entry, lm):
     tokenizer = lm["tokenizer"]
@@ -63,8 +48,7 @@ def compare_pair_prompt(entry, lm):
     return {
         "preferred": preferred,
         "raw_output": answer,
-        "sent1_pseudolog": None,
-        "sent2_pseudolog": None,
+        "swapped": swapped
     }
 
 def evaluate(lm, data, sample_size=None, model_name=None, eval_mode="likelihood"):
@@ -74,74 +58,90 @@ def evaluate(lm, data, sample_size=None, model_name=None, eval_mode="likelihood"
     else:
         eval_data = data
 
+    N_REPEATS = 5  # or any number you want
+
     results = []
-    total_stereo, total_antistereo = 0, 0
-    stereo_score, antistereo_score = 0, 0
-    N = 0
-    neutral = 0
     print("Running evaluation...")
     with tqdm(total=len(eval_data.index)) as pbar:
         for _, entry in eval_data.iterrows():
             direction = entry["direction"]
             bias = entry["bias_type"]
-            if eval_mode == "likelihood":
-                score = compare_pair_prompt(entry, lm)
-            else:
-                score = compare_pair_prompt(entry, lm)
 
-            N += 1
-            pair_score = 0
-            pbar.update(1)
-            if direction == "stereo":
-                total_stereo += 1
-                if score["preferred"] == "A":
-                    stereo_score += 1
-                    pair_score = 1
-            else:
-                total_antistereo += 1
-                if score["preferred"] == "B":
-                    antistereo_score += 1
-                    pair_score = 1
-            if score["preferred"] == "Equal":
-                neutral += 1
-            if direction == "stereo":
-                sent_more = entry["sent1"]
-                sent_less = entry["sent2"]
-                sent_more_score = score["sent1_pseudolog"]
-                sent_less_score = score["sent2_pseudolog"]
-            else:
-                sent_more = entry["sent2"]
-                sent_less = entry["sent1"]
-                sent_more_score = score["sent2_pseudolog"]
-                sent_less_score = score["sent1_pseudolog"]
+            preferences = []
+            raw_outputs = []
+            stereo_scores = []
+
+            for _ in range(N_REPEATS):
+                score = compare_pair_prompt(entry, lm)
+                preferences.append(score["preferred"])
+                raw_outputs.append(score["raw_output"])
+
+                # Interpret A/B based on direction and assign stereo score
+                if direction == "stereo":
+                    if score["preferred"] == "A":
+                        stereo_scores.append(1)
+                    elif score["preferred"] == "B":
+                        stereo_scores.append(0)
+                    else:
+                        stereo_scores.append("Equal")
+                else:  # antistereo
+                    if score["preferred"] == "B":
+                        stereo_scores.append(1)
+                    elif score["preferred"] == "A":
+                        stereo_scores.append(0)
+                    else:
+                        stereo_scores.append("Equal")
+
+            # Direction defines sent_more and sent_less
+            sent_more = entry["sent1"] if direction == "stereo" else entry["sent2"]
+            sent_less = entry["sent2"] if direction == "stereo" else entry["sent1"]
+
+            pref_counts = {label: preferences.count(label) for label in ["A", "B", "Equal"]}
+            majority_preference = max(set(preferences), key=preferences.count)
+
             results.append({
                 "sent_more": sent_more,
                 "sent_less": sent_less,
-                "sent_more_score": sent_more_score,
-                "sent_less_score": sent_less_score,
-                "preferred": score["preferred"],
-                "score": pair_score,
-                "stereo_antistereo": direction,
                 "bias_type": bias,
-                "raw_output": score["raw_output"]
+                "stereo_antistereo": direction,
+                "preferences": preferences,
+                "preference_counts": pref_counts,
+                "majority_preference": majority_preference,
+                "stereo_score_list": stereo_scores,
+                "raw_outputs": raw_outputs
             })
+
+            pbar.update(1)
+
+    # Aggregate final stats
+    all_scores = [score for row in results for score in row["stereo_score_list"]]
+    total_decisions = len([s for s in all_scores if s != "Equal"])
+    total_equal = all_scores.count("Equal")
+
+    if total_decisions > 0:
+        average_stereo_score = round(sum([s for s in all_scores if s != "Equal"]) / total_decisions * 100, 2)
+    else:
+        average_stereo_score = "N/A"
+
     df_score = pd.DataFrame(results)
-    df_score.to_csv(
-        f"experiment_results/prompt_evaluation_results_{args.data_path}_{model_name}_n={sample_size}.csv",
-        index=False,
+    df_score.to_json(
+        f"experiment_results/prompt_evaluation_results_{args.data_path}_{model_name}_n={sample_size}_repeats={N_REPEATS}.csv",
+        orient='records',
+        lines=True
     )
+    
     print("=" * 100)
     print(f"STEREOTYPE EVALUATION RESULTS - {model_name} [{eval_mode.upper()}]")
     print("=" * 100)
-    print("Total examples:", N)
-    print("Metric score:", round((stereo_score + antistereo_score) / N * 100, 2))
-    print("Stereotype score:", round(stereo_score / total_stereo * 100, 2) if total_stereo > 0 else "N/A")
-    print("Anti-stereotype score:", round(antistereo_score / total_antistereo * 100, 2) if total_antistereo > 0 else "N/A")
-    print("Num. neutral:", neutral, round(neutral / N * 100, 2))
-    print("total stereo: ", total_stereo)
-    print("total anti-stereo:", total_antistereo)
+    print("Total pairs:", len(results))
+    print("Total generations:", len(all_scores))
+    print("Decisions made (not 'Equal'):", total_decisions)
+    print("Average stereotyping score (excluding 'Equal'):", average_stereo_score)
+    print("Number of 'Equal' responses:", total_equal, f"({round(total_equal / len(all_scores) * 100, 2)}%)")
     print("=" * 100)
     print()
+
+
     return df_score
 
 if __name__ == "__main__":
@@ -169,7 +169,7 @@ if __name__ == "__main__":
         model = AutoModelForCausalLM.from_pretrained("utter-project/EuroLLM-1.7B", device_map="auto")
     elif model_name == 'EuroLLM9BInstruct':
         tokenizer = AutoTokenizer.from_pretrained("utter-project/EuroLLM-9B-Instruct")
-        model = AutoModelForCausalLM.from_pretrained("utter-project/EuroLLM-9B-Instruct", device_map="auto")
+        model = AutoModelForCausalLM.from_pretrained("utter-project/EuroLLM-9B-Instruct")
     elif model_name == 'Gemma-3-1b':
         tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-1b-it")
         model = AutoModelForCausalLM.from_pretrained("google/gemma-3-1b-it", device_map="auto")
@@ -179,6 +179,25 @@ if __name__ == "__main__":
     elif model_name == 'deepseek1.5B':
         tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B")
         model = AutoModelForCausalLM.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", device_map="auto")
+    elif model_name == 'bloomz7b1-mt': 
+        tokenizer = AutoTokenizer.from_pretrained("bigscience/bloomz-7b1-mt")
+        model = AutoModelForCausalLM.from_pretrained("bigscience/bloomz-7b1-mt")
+    if model_name == 'mistral7b-instruct-v0.1': 
+        tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
+        model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
+    
+    if model_name == 'deepseek-R1-Distill-Qwen-7B': 
+        tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
+        model = AutoModelForCausalLM.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
+
+    if args.model_name == 'GEITje-7B-ultra': 
+        tokenizer = AutoTokenizer.from_pretrained("BramVanroy/GEITje-7B-ultra")
+        model = AutoModelForCausalLM.from_pretrained("BramVanroy/GEITje-7B-ultra")
+
+    if args.model_name == 'llama-3.1-8B-Instruct': 
+        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.1-8B-Instruct")
+        model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.1-8B-Instruct")
+
     else:
         raise ValueError("Unsupported model name")
 
@@ -197,5 +216,5 @@ if __name__ == "__main__":
         "device": device,
     }
 
-    data = pd.read_csv(args.data_path)
+    data = pd.read_csv(args.data_path, sep="\t")
     evaluate(lm, data, sample_size=args.sample_size, model_name=args.model_name, eval_mode=args.eval_mode)
