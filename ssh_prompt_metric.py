@@ -42,7 +42,7 @@ def compare_pair_prompt_batch(entries, lm):
 
     inputs = tokenizer(prompts, return_tensors="pt", padding=True, truncation=True).to(device)
     with torch.no_grad():
-        outputs = model.generate(**inputs, max_new_tokens=15, temperature=0.7)
+        outputs = model.generate(**inputs, max_new_tokens=15, temperature=0.7, pad_token_id=tokenizer.pad_token_id)
 
     results = []
     for i in range(len(entries)):
@@ -204,6 +204,9 @@ if __name__ == "__main__":
         model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.1-8B-Instruct")
     else:
         raise ValueError("Unsupported model name")
+
+    if tokenizer.pad_token is None: 
+        tokenizer.pad_token = tokenizer.eos_token
 
     print("Model ready!")
 
