@@ -1,7 +1,9 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-
 from transformers import AutoTokenizer, AutoModelForCausalLM
+
+from huggingface_hub import login
+login(token="")
 
 def load_model(model_name, device):
     """Load model and tokenizer from HuggingFace."""
@@ -37,14 +39,6 @@ def load_model(model_name, device):
 
     return tokenizer, model
 
-    
-    if model_name not in model_name_map:
-        raise ValueError(f"Unsupported model name: {model_name}")
-    
-    tokenizer = AutoTokenizer.from_pretrained(model_name_map[model_name])
-    model = AutoModelForCausalLM.from_pretrained(model_name_map[model_name], device_map="auto")
-    
-    return tokenizer, model
 
 def prepare_lm(model, tokenizer, device):
     """Prepare the language model dictionary."""

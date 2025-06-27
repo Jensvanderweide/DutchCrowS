@@ -1,5 +1,4 @@
-import random
-import torch
+import pandas as pd
 from tqdm import tqdm
 from code.utils import compare_pair_prompt_batch
 
@@ -51,7 +50,7 @@ def evaluate_prompt(lm, data, sample_size=None, model_name=None, N_REPEATS=5, BA
 
     df_score = pd.DataFrame(results)
     df_score.to_json(
-        f"experiment_results/prompt_evaluation_results_{model_name}_n={sample_size}_repeats={N_REPEATS}.jsonl",
+        f"experiment_results/TEST_prompt_evaluation_results_{model_name}_n={sample_size}_repeats={N_REPEATS}.jsonl",
         orient='records',
         lines=True
     )
