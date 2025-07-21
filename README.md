@@ -1,4 +1,4 @@
-# 🔍 Bias Evaluation for Language Models
+#  Bias Evaluation for Language Models
 
 This project evaluates stereotyping bias in language models using two evaluation strategies:  
 - **Likelihood-based evaluation**
