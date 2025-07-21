@@ -1,6 +1,6 @@
-#  Bias Evaluation for Language Models
+#  DutchCrows: evaluating LLMs on Dutch stereotypes 
 
-This project evaluates stereotyping bias in language models using two evaluation strategies:  
+This project evaluates Dutch stereotypes in language models using two evaluation strategies:  
 - **Likelihood-based evaluation**
 - **Prompt-based evaluation**
 
