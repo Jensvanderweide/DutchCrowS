@@ -62,24 +62,13 @@ python main.py --model_name xlm-roberta-base --eval_mode prompt --sample_size 50
 
 ## Evaluation Modes
 
-- **Likelihood mode**: Scores sentence pairs based on log-likelihood using a causal or masked language model.
-- **Prompt mode**: Uses cloze-style templates or open prompts to assess model biases.
+- **Likelihood mode**: Scores sentence pairs based on log-likelihood using a causal language model.
+- **Prompt mode**: Uses a prompt template to assess model biases.
 
 Each evaluation function will log or save relevant metrics such as:
 
-- Preference scores
+- Stereotype scores
 - Bias directionality
-- Aggregate bias indicators
 
 ---
 
-## Development Notes
-
-- Designed to work on CPU or GPU (`cuda` is automatically used if available).
-- Modular code structure – you can easily plug in your own dataset or add new evaluation strategies.
-
----
-
-## License
-
-MIT License
