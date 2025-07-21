@@ -8,23 +8,23 @@ It supports any HuggingFace-compatible model (e.g., `gpt2`, `xlm-roberta-base`, 
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 .
 ├── code/
-│   ├── models.py             # Model loading and preparation
-│   ├── eval_likelihood.py    # Likelihood-based evaluation
-│   ├── eval_prompt.py        # Prompt-based evaluation
-│   ├── utils.py              # Utility functions (e.g., set_seed)
+│   ├── models.py            
+│   ├── eval_likelihood.py    
+│   ├── eval_prompt.py        
+│   ├── utils.py              
 ├── data/
-│   └── preprocessed_final.csv  # Your tab-separated benchmark data
-├── main.py                   # Main entry point
+│   └── preprocessed_final.csv  
+├── main.py                   
 ```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install Requirements
 
@@ -60,7 +60,7 @@ python main.py --model_name xlm-roberta-base --eval_mode prompt --sample_size 50
 
 ---
 
-## 🧪 Evaluation Modes
+## Evaluation Modes
 
 - **Likelihood mode**: Scores sentence pairs based on log-likelihood using a causal or masked language model.
 - **Prompt mode**: Uses cloze-style templates or open prompts to assess model biases.
@@ -73,13 +73,13 @@ Each evaluation function will log or save relevant metrics such as:
 
 ---
 
-## 🛠 Development Notes
+## Development Notes
 
 - Designed to work on CPU or GPU (`cuda` is automatically used if available).
 - Modular code structure – you can easily plug in your own dataset or add new evaluation strategies.
 
 ---
 
-## 📄 License
+## License
 
 MIT License
