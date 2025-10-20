@@ -1,4 +1,4 @@
-#  DutchCrows: evaluating LLMs on Dutch stereotypes 
+#  CrowS-Pairs-NL: evaluating LLMs on Dutch stereotypes 
 
 This project evaluates Dutch stereotypes in language models using two evaluation strategies:  
 - **Likelihood-based evaluation**
@@ -67,10 +67,6 @@ python main.py --model_name xlm-roberta-base --eval_mode prompt --sample_size 50
 - **Likelihood mode**: Scores sentence pairs based on log-likelihood using a causal language model.
 - **Prompt mode**: Uses a prompt template to assess model biases.
 
-Each evaluation function will log or save relevant metrics such as:
-
-- Stereotype scores
-- Bias directionality
 
 ---
 
